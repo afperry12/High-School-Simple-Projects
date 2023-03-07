@@ -1,0 +1,45 @@
+.App-bg {
+    background: linear-gradient(to bottom right, var(--main-gradient-color-left), var(--main-gradient-color-right));
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+  #wrapper
+{
+    display: table;
+    width: 100%;
+}
+.Introduction {
+    /* display:inline-block;    
+    float:left;    
+    position:absolute;
+    width:50%;
+    font-size: 20px;
+    left:50px;
+    top:50%; */
+    padding-bottom: 50px;
+}
+.Doc{
+    /* display:inline-block;
+    float:right;
+    position:relative;
+    width:45%;
+    padding: 50px; */
+    float: center;
+    position:relative;
+    text-align: center;
+    padding-top: 10px;
+    left: 15%;
+}
+.main-title {
+    font-size: 150px;
+    position:inline-block;
+    float:center;
+    padding-top: 5%;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}

@@ -1,0 +1,17 @@
+.article-item {
+    background-color: blueviolet;
+    }
+    
+    .article-item h2{
+    background-color: lightskyblue;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: auto;
+    padding-bottom: 20px;
+    }
+    
+    .article-item a{
+    /* background-color: #7A00B2; */
+    /* border-radius: 50%; */
+    font-size: 20px;
+    }
